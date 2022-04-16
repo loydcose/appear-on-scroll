@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.7;
+  color: white;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 400rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.col h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.col {
+  width: 45rem;
+  border: 0.1rem solid white;
+  padding: 2rem;
+}
