@@ -24,6 +24,7 @@ body {
   height: 400rem;
   align-items: center;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 .col h2 {
@@ -32,7 +33,28 @@ body {
 }
 
 .col {
-  width: 45rem;
+  width: 95%;
+  max-width: 45rem;
   border: 0.1rem solid white;
   padding: 2rem;
+  transition: all 0.5s;
+}
+
+/* animation */
+.left-to-right {
+  transform: translateX(-10rem);
+  opacity: 0;
+}
+
+.right-to-left {
+  transform: translateX(10rem);
+  opacity: 0;
+}
+
+.fades-in {
+  opacity: 0;
+}
+.appear-on-scroll {
+  transform: translateX(0);
+  opacity: 1;
 }
